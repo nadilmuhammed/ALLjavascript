@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+
+.login{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 2rem;
+
+}
+
+input{
+    padding: 1rem;
+}
+
+button{
+    padding: 1rem;
+}
