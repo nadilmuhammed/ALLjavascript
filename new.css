@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+
+.texts{
+    text-align: center;
+    margin-top: 20%
+}
+
+#inputs{
+    padding: 1rem;
+}
+
+#btn1{
+    padding: 1rem;
+}
+
