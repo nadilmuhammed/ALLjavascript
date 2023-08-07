@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+
+      let root1, root2;
+      let realpart, imgpart;
+
+      let a = prompt("Enter the first number");
+      let b = prompt("Enter the second number");
+      let c = prompt("Enter the third number");
+
+      wholeroot = b * b - 4 * a * c;
+
+      if (wholeroot > 0) {
+        root1 = -b + Math.sqrt(wholeroot) / (2 * a);
+        root2 = -b - Math.sqrt(wholeroot) / (2 * a);
+        alert(`The roots of quadratic equations are ${root1} and ${root2}`);
+      } else if (wholeroot == 0) {
+        root1 = root2 = -b / (2 * a);
+        alert(`The roots of quadratic equations are ${root1} and ${root2}`);
+      } else {
+        realpart = (-b / (2 * a)).toFixed(2);
+        imgpart = (Math.sqrt(-wholeroot) / (2 * a)).toFixed(2);
+        alert(
+          `The roots of quadratic equations are ${realpart} + ${imgpart}i and ${realpart} - ${imgpart}i`
+        );
+      }
+
+      
+    </script>
+  </body>
+</html>
